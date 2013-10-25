@@ -10,16 +10,17 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Bar info.ctl" Type="VI" URL="../Bar info.ctl"/>
 		<Item Name="Bar position.vi" Type="VI" URL="../Bar position.vi"/>
 		<Item Name="Bars.vi" Type="VI" URL="../Bars.vi"/>
 		<Item Name="Build bars.vi" Type="VI" URL="../Build bars.vi"/>
+		<Item Name="Control bars.vi" Type="VI" URL="../Control bars.vi"/>
 		<Item Name="Get monitor scale.vi" Type="VI" URL="../Get monitor scale.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Draw Rectangle.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rectangle.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
-				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
